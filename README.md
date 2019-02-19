@@ -8,9 +8,20 @@ In this lesson, you'll learn how to create SVMs for linearly non-separable data 
 ## Objectives
 You will be able to:
 - Understand what the Kernel Trick is and why it is important
+- Explain what a linear kernel is
+    * draws a straight line through the points
+    * creates a decision boundary 
+    * classifies based on that boundary
 - Explain what a Radial Basis Function Kernel is
+    * adds an extra dimension, usually based on distance from the origin.
+    * draws a hyperplane through the points
 - Explain what a Sigmoid Kernel is
+    * remapping the data between -1 and 1
+    * then it classifies using a logistic regression model (sigmoid)
+    * support vectors come from points near/around 0
 - Explain what a Polynomial Kernel is
+    * draws a boundary that is a polynomial
+    * uses the boundaries to classify the points
 - Apply several non-linear kernel functions in scikit-learn
 
 ## Non-linear problems: the kernel trick
